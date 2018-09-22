@@ -10,9 +10,10 @@ RUN apt-get update && apt-get install -y \
         nodejs
 
 # RUN mkdir -p /var/app
-# COPY Gemfile /var/app/Gemfile
+COPY Gemfile /var/app/Gemfile
 
 WORKDIR /var/app
 
 #RUN bundle clean --force
-#RUN bundle install
+RUN gem update --system
+RUN bundle install
