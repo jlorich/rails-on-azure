@@ -1,12 +1,24 @@
 version: '3'
 services:
   web:
+    # Build the current directory
     build: .
-    stdin_open: true
-    tty: true
-    command: bundle exec rails s -p 3333 -b '0.0.0.0'
+
+    # Start the rails server on port 80
+    command: bundle exec rails s -p 80 -b '0.0.0.0'
+
+    # Mount the current folder
     volumes:
       - .:/var/app
+
+    # Mount a tmpfs volume for the rails tmp pids directory
     tmpfs: /var/app/tmp/pids
+
+    # Map container port 80 to host port 3000
     ports:
-      - 3333:3333
+      - 80:3000
+    
+    # Ensure we can see the output during run
+    stdin_open: true
+    tty: true
+    

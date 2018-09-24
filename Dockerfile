@@ -1,6 +1,7 @@
 FROM ruby:2.5.1-stretch
 
 ENV TMPDIR /tmp
+ENV RAILS_ENV
 
 RUN apt-get update && apt-get install -y \
         git \
@@ -21,6 +22,6 @@ RUN bundle install
 
 COPY . ./
 
-EXPOSE 3333
+EXPOSE 80
 
-ENTRYPOINT bundle exec rails s -p 3333 -b 0.0.0.0
+ENTRYPOINT bundle exec rails s -p 80 -b 0.0.0.0
