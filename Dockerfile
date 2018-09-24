@@ -1,7 +1,5 @@
 FROM ruby:2.5.1-stretch
 
-ENV TMPDIR /tmp
-
 RUN apt-get update && apt-get install -y \
         git \
         build-essential \

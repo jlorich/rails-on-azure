@@ -9,13 +9,15 @@ pool:
 variables:
   repositoryName: '$(dockerId).azurecr.io/microsoft/ruby-on-azure'
   imageName: '$(repositoryName):$(build.buildId)'
+  latest: '$(repositoryName):latest'
 
 steps:
 - script: |
     docker login -u $(dockerId) -p $pswd $(dockerid).azurecr.io
-    docker pull $(repositoryName):latest
-    docker build -f Dockerfile --cache-from $(repositoryName):latest -t $(imageName) .
+    docker pull $(latest)
+    docker build -f Dockerfile --cache-from $(latest) -t $(imageName) -t $(latest) .
     docker run $(imageName) bundle exec rails test
     docker push $(imageName)
+    docker push $(latest)
   env:
     pswd: $(dockerPassword)
