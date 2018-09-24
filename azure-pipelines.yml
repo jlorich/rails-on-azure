@@ -16,7 +16,6 @@ steps:
     docker login -u $(dockerId) -p $pswd $(dockerid).azurecr.io
     docker pull $(latest)
     docker build -f Dockerfile --cache-from $(latest) -t $(imageName) -t $(latest) .
-    docker run $(imageName) bundle exec rails test
     docker push $(imageName)
     docker push $(latest)
   env:
