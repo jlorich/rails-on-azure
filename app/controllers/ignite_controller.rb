@@ -1,4 +1,4 @@
-class IgniteController < ActionController::Base
+class IgniteController < ApplicationController
     def show
     end
 end
