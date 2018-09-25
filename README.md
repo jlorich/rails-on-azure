@@ -1,24 +1,8 @@
-# README
+# Ruby on Rails on Docker on Linux on Azure
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A new Ruby on Rails application, developed locally in a Docker Container using docker-compose, and continuously deployed using Azure Pipelines to Azure Web App for Containers.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Contact
+For further information you can reach me at the following:
+ - joseph.lorich@microsoft.com
+ - https://linkedin.com/in/jlorich/
