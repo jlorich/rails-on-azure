@@ -1,6 +1,6 @@
 FROM ruby:2.5.1-stretch
 
-RUN apt-get update && apt-get install -y \
+RUN sudo apt-get update && apt-get install -y \
         git \
         build-essential \
         g++ \
