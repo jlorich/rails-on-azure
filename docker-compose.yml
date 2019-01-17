@@ -1,8 +1,13 @@
-version: '3'
+version: '3.4'
 services:
   web:
+    depends_on:
+      - oms
+    
     # Build the current directory
-    build: .
+    build:
+      context: .
+      target: base
 
     # Start the rails server on port 80
     command: bundle exec rails s -p 80 -b '0.0.0.0'
@@ -21,3 +26,30 @@ services:
     # Ensure we can see the output during run
     stdin_open: true
     tty: true
+    environment:
+      FLUENTD_URL: http://oms:24224/oms.api.Rails?messages_type=string&severity_key=level
+
+  oms:
+    image: microsoft/oms
+    command: /opt/oms/oms.sh
+    environment: 
+      WSID: f808f30a-8bcd-4ab0-87c4-221b7a98f05e
+      KEY: Uw9DVBHwRG54v+OcC6dZqbH7P7PhMQ2ClR2ZgKGfKnTArjM6jY1E2qYDNqqXpje6ekQe2XT3q+9NxfBkrpdUrQ==
+      DOMAIN: opinsights.azure.com
+    volumes:
+      - ./LogFiles:/home/LogFiles
+      - ./oms:/opt/oms
+      - ./oms/omsagent.conf:/etc/opt/microsoft/omsagent/sysconf/omsagent.conf
+    ports:
+      - "24224:24224"
+      
+
+      #/etc/opt/omi/conf/omiserver.conf 
+      #/etc/opt/microsoft/omsagent/sysconf/omsagent.d/container.conf
+      #/etc/opt/microsoft/omsagent/sysconf/omsagent.d/syslog.conf
+
+    #     ruby:
+    # image: appsvc/ruby
+    # volumes:
+    #   - ${WEBAPP_STORAGE_HOME}:/home/LogFiles
+    

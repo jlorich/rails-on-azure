@@ -1,0 +1,499 @@
+2018-11-20 17:07:46.607 INFO  - Starting container for site
+2018-11-20 17:07:46.607 INFO  - docker run -d -p 21744:8081 --name mtcden-jl-ruby-on-azure-sandbox-app_0_msiProxy -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=mtcden-jl-ruby-on-azure-sandbox-app -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=18994d9f3fcc33dcf7fd0d7c66179a9820d0e556a4f5069eaac8a33814f698d5 -e HTTP_LOGGING_ENABLED=1 appsvc/msitokenservice:1810080238  
+
+2018-11-20 17:07:46.961 INFO  - Issuing docker pull: imagename =microsoft/oms
+2018-11-20 17:07:47.458 INFO  - Issuing docker pull: imagename =microsoft/oms
+2018-11-20 17:07:47.836 INFO  - Issuing docker pull microsoft/oms
+2018-11-20 17:07:48.529 INFO  - docker pull returned STDOUT>> Using default tag: latest
+latest: Pulling from microsoft/oms
+Digest: sha256:c321b6b520d2a956e9a3be7ddbc4cf8e346c0a3d03fd5081f68cc3b2cacac6ea
+Status: Image is up to date for microsoft/oms:latest
+
+2018-11-20 17:07:48.534 INFO  - Starting container for site
+2018-11-20 17:07:48.534 INFO  - docker run -d -p 60090:80 --name mtcden-jl-ruby-on-azure-sandbox-app_0 -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=mtcden-jl-ruby-on-azure-sandbox-app -e WEBSITE_AUTH_ENABLED=False -e PORT=80 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=18994d9f3fcc33dcf7fd0d7c66179a9820d0e556a4f5069eaac8a33814f698d5 -e HTTP_LOGGING_ENABLED=1 microsoft/oms  
+
+2018-11-20 17:07:49.229 INFO  - Container mtcden-jl-ruby-on-azure-sandbox-app_0_msiProxy for site mtcden-jl-ruby-on-azure-sandbox-app initialized successfully.
+2018-11-20 17:11:39.437 ERROR - Container mtcden-jl-ruby-on-azure-sandbox-app_0 for site mtcden-jl-ruby-on-azure-sandbox-app did not start within expected time limit. Elapsed time = 230.5761395 sec
+2018-11-20 17:14:46.773 INFO  - Starting container for site
+2018-11-20 17:14:46.775 INFO  - docker run -d -p 41849:8081 --name mtcden-jl-ruby-on-azure-sandbox-app_0_msiProxy -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=mtcden-jl-ruby-on-azure-sandbox-app -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=18994d9f3fcc33dcf7fd0d7c66179a9820d0e556a4f5069eaac8a33814f698d5 -e HTTP_LOGGING_ENABLED=1 appsvc/msitokenservice:1810080238  
+
+2018-11-20 17:14:47.167 INFO  - Issuing docker pull: imagename =microsoft/oms
+2018-11-20 17:14:47.792 INFO  - Issuing docker pull: imagename =microsoft/oms
+2018-11-20 17:14:48.351 INFO  - Issuing docker pull microsoft/oms
+2018-11-20 17:14:48.939 INFO  - docker pull returned STDOUT>> Using default tag: latest
+latest: Pulling from microsoft/oms
+Digest: sha256:c321b6b520d2a956e9a3be7ddbc4cf8e346c0a3d03fd5081f68cc3b2cacac6ea
+Status: Image is up to date for microsoft/oms:latest
+
+2018-11-20 17:14:48.947 INFO  - Starting container for site
+2018-11-20 17:14:48.948 INFO  - docker run -d -p 62192:80 --name mtcden-jl-ruby-on-azure-sandbox-app_0 -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=mtcden-jl-ruby-on-azure-sandbox-app -e WEBSITE_AUTH_ENABLED=False -e PORT=80 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=18994d9f3fcc33dcf7fd0d7c66179a9820d0e556a4f5069eaac8a33814f698d5 -e HTTP_LOGGING_ENABLED=1 microsoft/oms  
+
+2018-11-20 17:14:50.091 INFO  - Container mtcden-jl-ruby-on-azure-sandbox-app_0_msiProxy for site mtcden-jl-ruby-on-azure-sandbox-app initialized successfully.
+2018-11-20 17:18:39.471 ERROR - Container mtcden-jl-ruby-on-azure-sandbox-app_0 for site mtcden-jl-ruby-on-azure-sandbox-app did not start within expected time limit. Elapsed time = 230.1828045 sec
+2018-11-20 17:18:56.852 INFO  - Starting container for site
+2018-11-20 17:18:56.854 INFO  - docker run -d -p 13130:8081 --name mtcden-jl-ruby-on-azure-sandbox-app_0_msiProxy -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=mtcden-jl-ruby-on-azure-sandbox-app -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=18994d9f3fcc33dcf7fd0d7c66179a9820d0e556a4f5069eaac8a33814f698d5 -e HTTP_LOGGING_ENABLED=1 appsvc/msitokenservice:1810080238  
+
+2018-11-20 17:18:57.209 INFO  - Issuing docker pull: imagename =microsoft/oms
+2018-11-20 17:18:57.562 INFO  - Issuing docker pull: imagename =microsoft/oms
+2018-11-20 17:18:57.893 INFO  - Issuing docker pull microsoft/oms
+2018-11-20 17:18:58.524 INFO  - docker pull returned STDOUT>> Using default tag: latest
+latest: Pulling from microsoft/oms
+Digest: sha256:c321b6b520d2a956e9a3be7ddbc4cf8e346c0a3d03fd5081f68cc3b2cacac6ea
+Status: Image is up to date for microsoft/oms:latest
+
+2018-11-20 17:18:58.530 INFO  - Starting container for site
+2018-11-20 17:18:58.530 INFO  - docker run -d -p 53597:80 --name mtcden-jl-ruby-on-azure-sandbox-app_0 -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=mtcden-jl-ruby-on-azure-sandbox-app -e WEBSITE_AUTH_ENABLED=False -e PORT=80 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=18994d9f3fcc33dcf7fd0d7c66179a9820d0e556a4f5069eaac8a33814f698d5 -e HTTP_LOGGING_ENABLED=1 microsoft/oms  
+
+2018-11-20 17:18:59.275 INFO  - Container mtcden-jl-ruby-on-azure-sandbox-app_0_msiProxy for site mtcden-jl-ruby-on-azure-sandbox-app initialized successfully.
+2018-11-20 17:22:49.543 ERROR - Container mtcden-jl-ruby-on-azure-sandbox-app_0 for site mtcden-jl-ruby-on-azure-sandbox-app did not start within expected time limit. Elapsed time = 230.6753416 sec
+2018-11-20 17:24:07.175 INFO  - Starting container for site
+2018-11-20 17:24:07.176 INFO  - docker run -d -p 63566:8081 --name mtcden-jl-ruby-on-azure-sandbox-app_0_msiProxy -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=mtcden-jl-ruby-on-azure-sandbox-app -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=18994d9f3fcc33dcf7fd0d7c66179a9820d0e556a4f5069eaac8a33814f698d5 -e HTTP_LOGGING_ENABLED=1 appsvc/msitokenservice:1810080238  
+
+2018-11-20 17:24:07.521 INFO  - Issuing docker pull: imagename =microsoft/oms
+2018-11-20 17:24:07.993 INFO  - Issuing docker pull: imagename =microsoft/oms
+2018-11-20 17:24:08.466 INFO  - Issuing docker pull microsoft/oms
+2018-11-20 17:24:09.127 INFO  - docker pull returned STDOUT>> Using default tag: latest
+latest: Pulling from microsoft/oms
+Digest: sha256:c321b6b520d2a956e9a3be7ddbc4cf8e346c0a3d03fd5081f68cc3b2cacac6ea
+Status: Image is up to date for microsoft/oms:latest
+
+2018-11-20 17:24:09.133 INFO  - Starting container for site
+2018-11-20 17:24:09.134 INFO  - docker run -d -p 24269:80 --name mtcden-jl-ruby-on-azure-sandbox-app_0 -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=mtcden-jl-ruby-on-azure-sandbox-app -e WEBSITE_AUTH_ENABLED=False -e PORT=80 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=18994d9f3fcc33dcf7fd0d7c66179a9820d0e556a4f5069eaac8a33814f698d5 -e HTTP_LOGGING_ENABLED=1 microsoft/oms  
+
+2018-11-20 17:24:09.855 INFO  - Container mtcden-jl-ruby-on-azure-sandbox-app_0_msiProxy for site mtcden-jl-ruby-on-azure-sandbox-app initialized successfully.
+2018-11-20 17:28:00.134 ERROR - Container mtcden-jl-ruby-on-azure-sandbox-app_0 for site mtcden-jl-ruby-on-azure-sandbox-app did not start within expected time limit. Elapsed time = 230.6535644 sec
+2018-11-20 17:29:07.623 INFO  - Starting container for site
+2018-11-20 17:29:07.625 INFO  - docker run -d -p 62991:8081 --name mtcden-jl-ruby-on-azure-sandbox-app_0_msiProxy -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=mtcden-jl-ruby-on-azure-sandbox-app -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=18994d9f3fcc33dcf7fd0d7c66179a9820d0e556a4f5069eaac8a33814f698d5 -e HTTP_LOGGING_ENABLED=1 appsvc/msitokenservice:1810080238  
+
+2018-11-20 17:29:07.991 INFO  - Issuing docker pull: imagename =microsoft/oms
+2018-11-20 17:29:08.325 INFO  - Issuing docker pull: imagename =microsoft/oms
+2018-11-20 17:29:08.690 INFO  - Issuing docker pull microsoft/oms
+2018-11-20 17:29:09.287 INFO  - docker pull returned STDOUT>> Using default tag: latest
+latest: Pulling from microsoft/oms
+Digest: sha256:c321b6b520d2a956e9a3be7ddbc4cf8e346c0a3d03fd5081f68cc3b2cacac6ea
+Status: Image is up to date for microsoft/oms:latest
+
+2018-11-20 17:29:09.293 INFO  - Starting container for site
+2018-11-20 17:29:09.294 INFO  - docker run -d -p 6003:80 --name mtcden-jl-ruby-on-azure-sandbox-app_0 -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=mtcden-jl-ruby-on-azure-sandbox-app -e WEBSITE_AUTH_ENABLED=False -e PORT=80 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=18994d9f3fcc33dcf7fd0d7c66179a9820d0e556a4f5069eaac8a33814f698d5 -e HTTP_LOGGING_ENABLED=1 microsoft/oms  
+
+2018-11-20 17:29:10.168 INFO  - Container mtcden-jl-ruby-on-azure-sandbox-app_0_msiProxy for site mtcden-jl-ruby-on-azure-sandbox-app initialized successfully.
+2018-11-20 17:33:00.462 ERROR - Container mtcden-jl-ruby-on-azure-sandbox-app_0 for site mtcden-jl-ruby-on-azure-sandbox-app did not start within expected time limit. Elapsed time = 230.7891284 sec
+2018-11-20 17:34:07.591 INFO  - Starting container for site
+2018-11-20 17:34:07.593 INFO  - docker run -d -p 41569:8081 --name mtcden-jl-ruby-on-azure-sandbox-app_0_msiProxy -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=mtcden-jl-ruby-on-azure-sandbox-app -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=18994d9f3fcc33dcf7fd0d7c66179a9820d0e556a4f5069eaac8a33814f698d5 -e HTTP_LOGGING_ENABLED=1 appsvc/msitokenservice:1810080238  
+
+2018-11-20 17:34:07.940 INFO  - Issuing docker pull: imagename =microsoft/oms
+2018-11-20 17:34:08.511 INFO  - Issuing docker pull: imagename =microsoft/oms
+2018-11-20 17:34:08.965 INFO  - Issuing docker pull microsoft/oms
+2018-11-20 17:34:09.529 INFO  - docker pull returned STDOUT>> Using default tag: latest
+latest: Pulling from microsoft/oms
+Digest: sha256:c321b6b520d2a956e9a3be7ddbc4cf8e346c0a3d03fd5081f68cc3b2cacac6ea
+Status: Image is up to date for microsoft/oms:latest
+
+2018-11-20 17:34:09.537 INFO  - Starting container for site
+2018-11-20 17:34:09.537 INFO  - docker run -d -p 25980:80 --name mtcden-jl-ruby-on-azure-sandbox-app_0 -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=mtcden-jl-ruby-on-azure-sandbox-app -e WEBSITE_AUTH_ENABLED=False -e PORT=80 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=18994d9f3fcc33dcf7fd0d7c66179a9820d0e556a4f5069eaac8a33814f698d5 -e HTTP_LOGGING_ENABLED=1 microsoft/oms  
+
+2018-11-20 17:34:10.371 INFO  - Container mtcden-jl-ruby-on-azure-sandbox-app_0_msiProxy for site mtcden-jl-ruby-on-azure-sandbox-app initialized successfully.
+2018-11-20 17:38:00.585 ERROR - Container mtcden-jl-ruby-on-azure-sandbox-app_0 for site mtcden-jl-ruby-on-azure-sandbox-app did not start within expected time limit. Elapsed time = 230.6813756 sec
+2018-11-20 17:39:08.415 INFO  - Starting container for site
+2018-11-20 17:39:08.416 INFO  - docker run -d -p 15953:8081 --name mtcden-jl-ruby-on-azure-sandbox-app_0_msiProxy -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=mtcden-jl-ruby-on-azure-sandbox-app -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=18994d9f3fcc33dcf7fd0d7c66179a9820d0e556a4f5069eaac8a33814f698d5 -e HTTP_LOGGING_ENABLED=1 appsvc/msitokenservice:1810080238  
+
+2018-11-20 17:39:08.770 INFO  - Issuing docker pull: imagename =microsoft/oms
+2018-11-20 17:39:09.142 INFO  - Issuing docker pull: imagename =microsoft/oms
+2018-11-20 17:39:09.483 INFO  - Issuing docker pull microsoft/oms
+2018-11-20 17:39:10.072 INFO  - docker pull returned STDOUT>> Using default tag: latest
+latest: Pulling from microsoft/oms
+Digest: sha256:c321b6b520d2a956e9a3be7ddbc4cf8e346c0a3d03fd5081f68cc3b2cacac6ea
+Status: Image is up to date for microsoft/oms:latest
+
+2018-11-20 17:39:10.080 INFO  - Starting container for site
+2018-11-20 17:39:10.081 INFO  - docker run -d -p 11319:80 --name mtcden-jl-ruby-on-azure-sandbox-app_0 -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=mtcden-jl-ruby-on-azure-sandbox-app -e WEBSITE_AUTH_ENABLED=False -e PORT=80 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=18994d9f3fcc33dcf7fd0d7c66179a9820d0e556a4f5069eaac8a33814f698d5 -e HTTP_LOGGING_ENABLED=1 microsoft/oms  
+
+2018-11-20 17:39:10.740 INFO  - Container mtcden-jl-ruby-on-azure-sandbox-app_0_msiProxy for site mtcden-jl-ruby-on-azure-sandbox-app initialized successfully.
+2018-11-20 17:43:00.973 ERROR - Container mtcden-jl-ruby-on-azure-sandbox-app_0 for site mtcden-jl-ruby-on-azure-sandbox-app did not start within expected time limit. Elapsed time = 230.5643419 sec
+2018-11-20 17:44:08.158 INFO  - Starting container for site
+2018-11-20 17:44:08.160 INFO  - docker run -d -p 8792:8081 --name mtcden-jl-ruby-on-azure-sandbox-app_0_msiProxy -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=mtcden-jl-ruby-on-azure-sandbox-app -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=18994d9f3fcc33dcf7fd0d7c66179a9820d0e556a4f5069eaac8a33814f698d5 -e HTTP_LOGGING_ENABLED=1 appsvc/msitokenservice:1810080238  
+
+2018-11-20 17:44:08.486 INFO  - Issuing docker pull: imagename =microsoft/oms
+2018-11-20 17:44:08.950 INFO  - Issuing docker pull: imagename =microsoft/oms
+2018-11-20 17:44:09.450 INFO  - Issuing docker pull microsoft/oms
+2018-11-20 17:44:10.013 INFO  - docker pull returned STDOUT>> Using default tag: latest
+latest: Pulling from microsoft/oms
+Digest: sha256:c321b6b520d2a956e9a3be7ddbc4cf8e346c0a3d03fd5081f68cc3b2cacac6ea
+Status: Image is up to date for microsoft/oms:latest
+
+2018-11-20 17:44:10.031 INFO  - Starting container for site
+2018-11-20 17:44:10.033 INFO  - docker run -d -p 2151:80 --name mtcden-jl-ruby-on-azure-sandbox-app_0 -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=mtcden-jl-ruby-on-azure-sandbox-app -e WEBSITE_AUTH_ENABLED=False -e PORT=80 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=18994d9f3fcc33dcf7fd0d7c66179a9820d0e556a4f5069eaac8a33814f698d5 -e HTTP_LOGGING_ENABLED=1 microsoft/oms  
+
+2018-11-20 17:44:10.796 INFO  - Container mtcden-jl-ruby-on-azure-sandbox-app_0_msiProxy for site mtcden-jl-ruby-on-azure-sandbox-app initialized successfully.
+2018-11-20 17:48:00.979 ERROR - Container mtcden-jl-ruby-on-azure-sandbox-app_0 for site mtcden-jl-ruby-on-azure-sandbox-app did not start within expected time limit. Elapsed time = 230.5263028 sec
+2018-11-20 17:49:38.729 INFO  - Starting container for site
+2018-11-20 17:49:38.731 INFO  - docker run -d -p 15451:8081 --name mtcden-jl-ruby-on-azure-sandbox-app_0_msiProxy -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=mtcden-jl-ruby-on-azure-sandbox-app -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=18994d9f3fcc33dcf7fd0d7c66179a9820d0e556a4f5069eaac8a33814f698d5 -e HTTP_LOGGING_ENABLED=1 appsvc/msitokenservice:1810080238  
+
+2018-11-20 17:49:39.146 INFO  - Issuing docker pull: imagename =appsvc/ruby
+2018-11-20 17:49:39.514 INFO  - docker pull returned STDOUT>> Using default tag: latest
+latest: Pulling from appsvc/ruby
+Digest: sha256:096412a3f9ed60a9c2fae246ba21b0c63be98e2b29ad80bc27c79eb596398048
+Status: Downloaded newer image for 10.0.7.103:13209/appsvc/ruby:latest
+
+2018-11-20 17:49:39.564 INFO  - Starting container for site
+2018-11-20 17:49:39.565 INFO  - docker run -d -p 40049:8080 --name mtcden-jl-ruby-on-azure-sandbox-app_0 -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=mtcden-jl-ruby-on-azure-sandbox-app -e WEBSITE_AUTH_ENABLED=False -e PORT=8080 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=18994d9f3fcc33dcf7fd0d7c66179a9820d0e556a4f5069eaac8a33814f698d5 -e HTTP_LOGGING_ENABLED=1 appsvc/ruby  
+
+2018-11-20 17:49:40.673 INFO  - Container mtcden-jl-ruby-on-azure-sandbox-app_0_msiProxy for site mtcden-jl-ruby-on-azure-sandbox-app initialized successfully.
+2018-11-20 17:49:41.684 INFO  - Container mtcden-jl-ruby-on-azure-sandbox-app_0 for site mtcden-jl-ruby-on-azure-sandbox-app initialized successfully.
+2018-11-20 17:59:04.565 INFO  - Recycling container because of AppSettingsChange and isMainSite = True
+2018-11-20 17:59:04.572 INFO  - Starting container for site
+2018-11-20 17:59:04.575 INFO  - docker run -d -p 16887:8081 --name mtcden-jl-ruby-on-azure-sandbox-app_1_msiProxy -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=true -e WEBSITE_SITE_NAME=mtcden-jl-ruby-on-azure-sandbox-app -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=18994d9f3fcc33dcf7fd0d7c66179a9820d0e556a4f5069eaac8a33814f698d5 -e HTTP_LOGGING_ENABLED=1 appsvc/msitokenservice:1810080238  
+
+2018-11-20 17:59:05.232 INFO  - Issuing docker pull: imagename =appsvc/ruby
+2018-11-20 17:59:05.617 INFO  - docker pull returned STDOUT>> Using default tag: latest
+latest: Pulling from appsvc/ruby
+Digest: sha256:096412a3f9ed60a9c2fae246ba21b0c63be98e2b29ad80bc27c79eb596398048
+Status: Image is up to date for 10.0.7.103:13209/appsvc/ruby:latest
+
+2018-11-20 17:59:05.649 INFO  - Starting container for site
+2018-11-20 17:59:05.649 INFO  - docker run -d -p 60974:8080 --name mtcden-jl-ruby-on-azure-sandbox-app_1 -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=true -e WEBSITE_SITE_NAME=mtcden-jl-ruby-on-azure-sandbox-app -e WEBSITE_AUTH_ENABLED=False -e PORT=8080 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=18994d9f3fcc33dcf7fd0d7c66179a9820d0e556a4f5069eaac8a33814f698d5 -e HTTP_LOGGING_ENABLED=1 appsvc/ruby  
+
+2018-11-20 17:59:08.651 INFO  - Container mtcden-jl-ruby-on-azure-sandbox-app_1_msiProxy for site mtcden-jl-ruby-on-azure-sandbox-app initialized successfully.
+2018-11-20 17:59:08.667 INFO  - Container mtcden-jl-ruby-on-azure-sandbox-app_1 for site mtcden-jl-ruby-on-azure-sandbox-app initialized successfully.
+2018-11-20 18:18:39.281 INFO  - Recycling container because of AppFrameworkChange and appFramework = 
+2018-11-20 18:18:39.288 INFO  - Starting multi-container app, configuration = 
+version: '3.3'
+
+services:
+   db:
+     image: appsvc/ruby
+     volumes:
+       - /var/run/docker.sock:/var/run/docker.sock
+2018-11-20 18:18:39.289 ERROR - Exception in multi-container config parsing: (Line: 7, Col: 10, Idx: 80) - (Line: 7, Col: 51, Idx: 121): Bind mount must start with ${WEBAPP_STORAGE_HOME}.
+2018-11-20 18:18:39.290 ERROR - Start multi-container app failed
+2018-11-20 18:18:49.588 INFO  - Starting multi-container app, configuration = 
+version: '3.3'
+
+services:
+   db:
+     image: appsvc/ruby
+     volumes:
+       - /var/run/docker.sock:/var/run/docker.sock
+2018-11-20 18:18:49.589 ERROR - Exception in multi-container config parsing: (Line: 7, Col: 10, Idx: 80) - (Line: 7, Col: 51, Idx: 121): Bind mount must start with ${WEBAPP_STORAGE_HOME}.
+2018-11-20 18:18:49.589 ERROR - Start multi-container app failed
+2018-11-20 18:18:59.951 INFO  - Starting multi-container app, configuration = 
+version: '3.3'
+
+services:
+   db:
+     image: appsvc/ruby
+     volumes:
+       - /var/run/docker.sock:/var/run/docker.sock
+2018-11-20 18:18:59.952 ERROR - Exception in multi-container config parsing: (Line: 7, Col: 10, Idx: 80) - (Line: 7, Col: 51, Idx: 121): Bind mount must start with ${WEBAPP_STORAGE_HOME}.
+2018-11-20 18:18:59.953 ERROR - Start multi-container app failed
+2018-11-20 18:23:59.784 INFO  - Starting multi-container app, configuration = 
+version: '3.3'
+
+services:
+   db:
+     image: appsvc/ruby
+     volumes:
+       - /var/run/docker.sock:/var/run/docker.sock
+2018-11-20 18:23:59.786 ERROR - Exception in multi-container config parsing: (Line: 7, Col: 10, Idx: 80) - (Line: 7, Col: 51, Idx: 121): Bind mount must start with ${WEBAPP_STORAGE_HOME}.
+2018-11-20 18:23:59.787 ERROR - Start multi-container app failed
+2018-11-20 18:29:00.010 INFO  - Starting multi-container app, configuration = 
+version: '3.3'
+
+services:
+   db:
+     image: appsvc/ruby
+     volumes:
+       - /var/run/docker.sock:/var/run/docker.sock
+2018-11-20 18:29:00.011 ERROR - Exception in multi-container config parsing: (Line: 7, Col: 10, Idx: 80) - (Line: 7, Col: 51, Idx: 121): Bind mount must start with ${WEBAPP_STORAGE_HOME}.
+2018-11-20 18:29:00.012 ERROR - Start multi-container app failed
+2018-11-20 18:34:00.258 INFO  - Starting multi-container app, configuration = 
+version: '3.3'
+
+services:
+  ruby:
+    image: appsvc/ruby
+service:
+  oms:
+    image: microsoft/oms
+    volumes:
+      - /home/LogFiles
+
+2018-11-20 18:34:00.557 INFO  - Issuing docker pull: imagename =appsvc/ruby
+2018-11-20 18:34:01.011 INFO  - docker pull returned STDOUT>> Using default tag: latest
+latest: Pulling from appsvc/ruby
+Digest: sha256:096412a3f9ed60a9c2fae246ba21b0c63be98e2b29ad80bc27c79eb596398048
+Status: Downloaded newer image for 10.0.7.104:13209/appsvc/ruby:latest
+
+2018-11-20 18:34:01.053 INFO  - Starting container for site
+2018-11-20 18:34:01.053 INFO  - docker run -d -p 2989:8080 --name mtcden-jl-ruby-on-azure-sandbox-app_ruby_0 -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=true -e WEBSITE_SITE_NAME=mtcden-jl-ruby-on-azure-sandbox-app -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=18994d9f3fcc33dcf7fd0d7c66179a9820d0e556a4f5069eaac8a33814f698d5 -e HTTP_LOGGING_ENABLED=1 appsvc/ruby  
+
+2018-11-20 18:34:03.517 INFO  - Started multi-container app
+2018-11-20 18:34:03.522 INFO  - Container mtcden-jl-ruby-on-azure-sandbox-app_ruby_0 for site mtcden-jl-ruby-on-azure-sandbox-app initialized successfully.
+2018-11-20 18:36:35.892 INFO  - Starting multi-container app, configuration = 
+version: '3.3'
+
+services:
+  ruby:
+    image: appsvc/ruby
+    volumes:
+      - /home/LogFiles
+  oms:
+    image: microsoft/oms
+    volumes:
+      - /home/LogFiles
+
+2018-11-20 18:36:36.187 INFO  - Issuing docker pull: imagename =appsvc/ruby
+2018-11-20 18:36:36.671 INFO  - docker pull returned STDOUT>> Using default tag: latest
+latest: Pulling from appsvc/ruby
+Digest: sha256:096412a3f9ed60a9c2fae246ba21b0c63be98e2b29ad80bc27c79eb596398048
+Status: Image is up to date for 10.0.7.103:13209/appsvc/ruby:latest
+
+2018-11-20 18:36:36.710 INFO  - Starting container for site
+2018-11-20 18:36:36.711 INFO  - docker run -d -p 28650:8080 --name mtcden-jl-ruby-on-azure-sandbox-app_ruby_1 -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=true -e WEBSITE_SITE_NAME=mtcden-jl-ruby-on-azure-sandbox-app -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=18994d9f3fcc33dcf7fd0d7c66179a9820d0e556a4f5069eaac8a33814f698d5 -e HTTP_LOGGING_ENABLED=1 appsvc/ruby  
+
+2018-11-20 18:36:36.754 INFO  - Issuing docker pull: imagename =microsoft/oms
+2018-11-20 18:36:37.068 INFO  - Issuing docker pull: imagename =microsoft/oms
+2018-11-20 18:36:37.458 INFO  - Issuing docker pull microsoft/oms
+2018-11-20 18:37:08.904 INFO  - docker pull returned STDOUT>> Using default tag: latest
+latest: Pulling from microsoft/oms
+3b37166ec614: Pulling fs layer
+504facff238f: Pulling fs layer
+ebbcacd28e10: Pulling fs layer
+c7fb3351ecad: Pulling fs layer
+2e3debadcbf7: Pulling fs layer
+46608b45b17b: Pulling fs layer
+3db5a6ee7973: Pulling fs layer
+75e077f4a2f5: Pulling fs layer
+c7fb3351ecad: Verifying Checksum
+c7fb3351ecad: Download complete
+3db5a6ee7973: Verifying Checksum
+3db5a6ee7973: Download complete
+ebbcacd28e10: Verifying Checksum
+ebbcacd28e10: Download complete
+504facff238f: Verifying Checksum
+504facff238f: Download complete
+2e3debadcbf7: Verifying Checksum
+2e3debadcbf7: Download complete
+3b37166ec614: Verifying Checksum
+3b37166ec614: Download complete
+46608b45b17b: Verifying Checksum
+46608b45b17b: Download complete
+3b37166ec614: Pull complete
+504facff238f: Pull complete
+ebbcacd28e10: Pull complete
+c7fb3351ecad: Pull complete
+2e3debadcbf7: Pull complete
+75e077f4a2f5: Verifying Checksum
+75e077f4a2f5: Download complete
+46608b45b17b: Pull complete
+3db5a6ee7973: Pull complete
+75e077f4a2f5: Pull complete
+Digest: sha256:c321b6b520d2a956e9a3be7ddbc4cf8e346c0a3d03fd5081f68cc3b2cacac6ea
+Status: Downloaded newer image for microsoft/oms:latest
+
+2018-11-20 18:37:08.913 INFO  - Starting container for site
+2018-11-20 18:37:08.914 INFO  - docker run -d -p 0:8080 --name mtcden-jl-ruby-on-azure-sandbox-app_oms_1 -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=true -e WEBSITE_SITE_NAME=mtcden-jl-ruby-on-azure-sandbox-app -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=18994d9f3fcc33dcf7fd0d7c66179a9820d0e556a4f5069eaac8a33814f698d5 -e HTTP_LOGGING_ENABLED=1 microsoft/oms  
+
+2018-11-20 18:37:13.397 INFO  - Started multi-container app
+2018-11-20 18:37:13.405 INFO  - Container mtcden-jl-ruby-on-azure-sandbox-app_ruby_1 for site mtcden-jl-ruby-on-azure-sandbox-app initialized successfully.
+2018-11-20 18:44:29.667 INFO  - Starting multi-container app, configuration = 
+version: '3.3'
+
+services:
+  ruby:
+    image: appsvc/ruby
+    volumes:
+      - /home/LogFiles:/home/LogFiles
+  oms:
+    image: microsoft/oms
+    volumes:
+      - /home/LogFiles:/home/LogFiles
+
+2018-11-20 18:44:29.668 ERROR - Exception in multi-container config parsing: (Line: 7, Col: 9, Idx: 78) - (Line: 7, Col: 38, Idx: 107): Bind mount must start with ${WEBAPP_STORAGE_HOME}.
+2018-11-20 18:44:29.669 ERROR - Start multi-container app failed
+2018-11-20 18:44:41.322 INFO  - Starting multi-container app, configuration = 
+version: '3.3'
+
+services:
+  ruby:
+    image: appsvc/ruby
+    volumes:
+      - /home/LogFiles:/home/LogFiles
+  oms:
+    image: microsoft/oms
+    volumes:
+      - /home/LogFiles:/home/LogFiles
+
+2018-11-20 18:44:41.323 ERROR - Exception in multi-container config parsing: (Line: 7, Col: 9, Idx: 78) - (Line: 7, Col: 38, Idx: 107): Bind mount must start with ${WEBAPP_STORAGE_HOME}.
+2018-11-20 18:44:41.324 ERROR - Start multi-container app failed
+2018-11-20 18:44:50.687 INFO  - Starting multi-container app, configuration = 
+version: '3.3'
+
+services:
+  ruby:
+    image: appsvc/ruby
+    volumes:
+      - /home/LogFiles:/home/LogFiles
+  oms:
+    image: microsoft/oms
+    volumes:
+      - /home/LogFiles:/home/LogFiles
+
+2018-11-20 18:44:50.688 ERROR - Exception in multi-container config parsing: (Line: 7, Col: 9, Idx: 78) - (Line: 7, Col: 38, Idx: 107): Bind mount must start with ${WEBAPP_STORAGE_HOME}.
+2018-11-20 18:44:50.689 ERROR - Start multi-container app failed
+2018-11-20 18:45:30.887 INFO  - Starting multi-container app, configuration = 
+version: '3.3'
+
+services:
+  ruby:
+    image: appsvc/ruby
+    volumes:
+      - ${WEBAPP_STORAGE_HOME}:/home/LogFiles
+  oms:
+    image: microsoft/oms
+    volumes:
+      - ${WEBAPP_STORAGE_HOME}:/home/LogFiles
+
+2018-11-20 18:45:31.277 INFO  - Issuing docker pull: imagename =appsvc/ruby
+2018-11-20 18:45:31.685 INFO  - docker pull returned STDOUT>> Using default tag: latest
+latest: Pulling from appsvc/ruby
+Digest: sha256:096412a3f9ed60a9c2fae246ba21b0c63be98e2b29ad80bc27c79eb596398048
+Status: Image is up to date for 10.0.7.104:13209/appsvc/ruby:latest
+
+2018-11-20 18:45:31.716 INFO  - Starting container for site
+2018-11-20 18:45:31.717 INFO  - docker run -d -p 35953:8080 --name mtcden-jl-ruby-on-azure-sandbox-app_ruby_0 -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=true -e WEBSITE_SITE_NAME=mtcden-jl-ruby-on-azure-sandbox-app -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=18994d9f3fcc33dcf7fd0d7c66179a9820d0e556a4f5069eaac8a33814f698d5 -e HTTP_LOGGING_ENABLED=1 appsvc/ruby  
+
+2018-11-20 18:45:31.753 INFO  - Issuing docker pull: imagename =microsoft/oms
+2018-11-20 18:45:32.346 INFO  - Issuing docker pull: imagename =microsoft/oms
+2018-11-20 18:45:32.675 INFO  - Issuing docker pull microsoft/oms
+2018-11-20 18:45:33.270 INFO  - docker pull returned STDOUT>> Using default tag: latest
+latest: Pulling from microsoft/oms
+Digest: sha256:c321b6b520d2a956e9a3be7ddbc4cf8e346c0a3d03fd5081f68cc3b2cacac6ea
+Status: Image is up to date for microsoft/oms:latest
+
+2018-11-20 18:45:33.279 INFO  - Starting container for site
+2018-11-20 18:45:33.280 INFO  - docker run -d -p 0:8080 --name mtcden-jl-ruby-on-azure-sandbox-app_oms_0 -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=true -e WEBSITE_SITE_NAME=mtcden-jl-ruby-on-azure-sandbox-app -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=18994d9f3fcc33dcf7fd0d7c66179a9820d0e556a4f5069eaac8a33814f698d5 -e HTTP_LOGGING_ENABLED=1 microsoft/oms  
+
+2018-11-20 18:45:35.835 INFO  - Started multi-container app
+2018-11-20 18:45:35.842 INFO  - Container mtcden-jl-ruby-on-azure-sandbox-app_ruby_0 for site mtcden-jl-ruby-on-azure-sandbox-app initialized successfully.
+2018-11-20 22:41:31.147 INFO  - Starting multi-container app, configuration = 
+version: '3.3'
+
+services:
+  oms:
+    image: microsoft/oms
+    volumes:
+      - ${WEBAPP_STORAGE_HOME}:/home/LogFiles
+
+2018-11-20 22:41:31.629 INFO  - Issuing docker pull: imagename =microsoft/oms
+2018-11-20 22:41:32.193 INFO  - Issuing docker pull: imagename =microsoft/oms
+2018-11-20 22:41:32.427 INFO  - Issuing docker pull microsoft/oms
+2018-11-20 22:41:33.056 INFO  - docker pull returned STDOUT>> Using default tag: latest
+latest: Pulling from microsoft/oms
+Digest: sha256:c321b6b520d2a956e9a3be7ddbc4cf8e346c0a3d03fd5081f68cc3b2cacac6ea
+Status: Image is up to date for microsoft/oms:latest
+
+2018-11-20 22:41:33.071 INFO  - Starting container for site
+2018-11-20 22:41:33.072 INFO  - docker run -d -p 34498:8080 --name mtcden-jl-ruby-on-azure-sandbox-app_oms_1 -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=true -e WEBSITE_SITE_NAME=mtcden-jl-ruby-on-azure-sandbox-app -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=18994d9f3fcc33dcf7fd0d7c66179a9820d0e556a4f5069eaac8a33814f698d5 -e HTTP_LOGGING_ENABLED=1 microsoft/oms  
+
+2018-11-20 22:45:23.190 ERROR - multi-container unit was not started successfully
+2018-11-20 22:45:23.220 INFO  - Container logs from mtcden-jl-ruby-on-azure-sandbox-app_oms_1 = 2018-11-20T22:41:33.531744540Z curl: (7) Couldn't connect to server
+2018-11-20T22:41:33.542198993Z Traceback (most recent call last):
+2018-11-20T22:41:33.542292493Z   File "<string>", line 1, in <module>
+2018-11-20T22:41:33.542481892Z   File "/usr/lib/python2.7/json/__init__.py", line 291, in load
+2018-11-20T22:41:33.542715091Z     **kw)
+2018-11-20T22:41:33.542775691Z   File "/usr/lib/python2.7/json/__init__.py", line 339, in loads
+2018-11-20T22:41:33.542926090Z     return _default_decoder.decode(s)
+2018-11-20T22:41:33.542981190Z   File "/usr/lib/python2.7/json/decoder.py", line 364, in decode
+2018-11-20T22:41:33.543149389Z     obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+2018-11-20T22:41:33.543204689Z   File "/usr/lib/python2.7/json/decoder.py", line 382, in raw_decode
+2018-11-20T22:41:33.543356988Z     raise ValueError("No JSON object could be decoded")
+2018-11-20T22:41:33.543625087Z ValueError: No JSON object could be decoded
+2018-11-20T22:41:33.563231599Z curl: (7) Couldn't connect to server
+2018-11-20T22:41:33.582361513Z Traceback (most recent call last):
+2018-11-20T22:41:33.582430512Z   File "<string>", line 1, in <module>
+2018-11-20T22:41:33.582654911Z   File "/usr/lib/python2.7/json/__init__.py", line 291, in load
+2018-11-20T22:41:33.582863310Z     **kw)
+2018-11-20T22:41:33.582949510Z   File "/usr/lib/python2.7/json/__init__.py", line 339, in loads
+2018-11-20T22:41:33.583341508Z     return _default_decoder.decode(s)
+2018-11-20T22:41:33.583441808Z   File "/usr/lib/python2.7/json/decoder.py", line 364, in decode
+2018-11-20T22:41:33.583663207Z     obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+2018-11-20T22:41:33.583728707Z   File "/usr/lib/python2.7/json/decoder.py", line 382, in raw_decode
+2018-11-20T22:41:33.584138805Z     raise ValueError("No JSON object could be decoded")
+2018-11-20T22:41:33.584424503Z ValueError: No JSON object could be decoded
+2018-11-20T22:41:33.602759121Z curl: (7) Couldn't connect to server
+2018-11-20T22:41:33.621331937Z Traceback (most recent call last):
+2018-11-20T22:41:33.621380837Z   File "<string>", line 1, in <module>
+2018-11-20T22:41:33.621507837Z   File "/usr/lib/python2.7/json/__init__.py", line 291, in load
+2018-11-20T22:41:33.621790535Z     **kw)
+2018-11-20T22:41:33.621854235Z   File "/usr/lib/python2.7/json/__init__.py", line 339, in loads
+2018-11-20T22:41:33.622028334Z     return _default_decoder.decode(s)
+2018-11-20T22:41:33.622084034Z   File "/usr/lib/python2.7/json/decoder.py", line 364, in decode
+2018-11-20T22:41:33.622311433Z     obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+2018-11-20T22:41:33.622383933Z   File "/usr/lib/python2.7/json/decoder.py", line 382, in raw_decode
+2018-11-20T22:41:33.622553432Z     raise ValueError("No JSON object could be decoded")
+2018-11-20T22:41:33.623205729Z ValueError: No JSON object could be decoded
+2018-11-20T22:41:34.166254486Z VERBOSE from OMS_MetaConfigHelper.py: Disable flag set to True, setting mof to disabled mode.
+2018-11-20T22:41:34.166310586Z VERBOSE from OMS_MetaConfigHelper.py: Output from: su - omsagent -c '/opt/microsoft/omsconfig/Scripts/SetDscLocalConfigurationManager.py -configurationmof /etc/opt/omi/conf/omsconfig/generated_meta_config.mof': 
+2018-11-20T22:41:34.166316486Z /opt/omi/bin/omicli: result: MI_RESULT_FAILED
+2018-11-20T22:41:34.166319886Z 
+2018-11-20T22:41:34.166322786Z 
+2018-11-20T22:41:34.166325886Z ERROR from OMS_MetaConfigHelper.py: Failed on running command: su - omsagent -c '/opt/microsoft/omsconfig/Scripts/SetDscLocalConfigurationManager.py -configurationmof /etc/opt/omi/conf/omsconfig/generated_meta_config.mof'
+2018-11-20T22:41:34.173942651Z /opt/omi/bin/omiserver: server is not running
+2018-11-20T22:41:34.174028351Z 
+2018-11-20T22:41:34.197911843Z Workspace f808f30a-8bcd-4ab0-87c4-221b7a98f05e already onboarded and agent is running.
+2018-11-20T22:41:34.198015143Z Symbolic links have not been created; re-onboarding to create them
+2018-11-20T22:41:34.697384496Z info	Generating certificate ...
+2018-11-20T22:41:34.698482791Z -e info	Agent GUID is f787a78a-4e22-409f-b21e-011ee0105cf2
+2018-11-20T22:41:34.905189662Z /dev/mem: No such file or directory
+2018-11-20T22:41:34.909455842Z /dev/mem: No such file or directory
+2018-11-20T22:41:35.602639624Z -e info	Onboarding success
+2018-11-20T22:41:35.701880278Z Configure syslog...
+2018-11-20T22:41:35.709538443Z Configuring rsyslog for OMS logging
+2018-11-20T22:41:35.714471221Z Restarting service: rsyslog
+2018-11-20T22:41:35.727758661Z invoke-rc.d: could not determine current runlevel
+2018-11-20T22:41:35.743135192Z  * Stopping enhanced syslogd rsyslogd
+2018-11-20T22:41:35.744310287Z    ...done.
+2018-11-20T22:41:35.750019561Z  * Starting enhanced syslogd rsyslogd
+2018-11-20T22:41:36.279796278Z    ...done.
+2018-11-20T22:41:36.280266876Z Configure heartbeat monitoring agent...
+2018-11-20T22:41:36.288300240Z Configure log rotate for workspace f808f30a-8bcd-4ab0-87c4-221b7a98f05e...
+2018-11-20T22:41:36.298610593Z INFO:  Configuring OMS agent service f808f30a-8bcd-4ab0-87c4-221b7a98f05e ...
+2018-11-20T22:41:36.341974698Z invoke-rc.d: could not determine current runlevel
+2018-11-20T22:41:36.354570841Z  * Starting Operations Management Suite agent (f808f30a-8bcd-4ab0-87c4-221b7a98f05e): 
+2018-11-20T22:41:37.138124417Z    ...done.
+2018-11-20T22:41:37.292113524Z -e info	Configured omsconfig
+2018-11-20T22:41:37.304824467Z instance of OMI_Identify
+2018-11-20T22:41:37.304834967Z {
+2018-11-20T22:41:37.304843267Z     [Key] InstanceID=2FDB5542-5896-45D5-9BE9-DC04430AAABE
+2018-11-20T22:41:37.304846767Z     SystemName=97cbb2e2a52b
+2018-11-20T22:41:37.304849667Z     ProductName=OMI
+2018-11-20T22:41:37.304852367Z     ProductVendor=Microsoft
+2018-11-20T22:41:37.304855267Z     ProductVersionMajor=1
+2018-11-20T22:41:37.304857967Z     ProductVersionMinor=4
+2018-11-20T22:41:37.304860767Z     ProductVersionRevision=2
+2018-11-20T22:41:37.304863567Z     ProductVersionString=1.4.2-5
+2018-11-20T22:41:37.304866367Z     Platform=LINUX_X86_64_GNU
+2018-11-20T22:41:37.304869067Z     OperatingSystem=LINUX
+2018-11-20T22:41:37.304880867Z     Architecture=X86_64
+2018-11-20T22:41:37.304884466Z     Compiler=GNU
+2018-11-20T22:41:37.304887166Z     ConfigPrefix=GNU
+2018-11-20T22:41:37.304889966Z     ConfigLibDir=/opt/omi/lib
+2018-11-20T22:41:37.304892666Z     ConfigBinDir=/opt/omi/bin
+2018-11-20T22:41:37.304895366Z     ConfigIncludeDir=/opt/omi/include
+2018-11-20T22:41:37.304898366Z     ConfigDataDir=/opt/omi/share
+2018-11-20T22:41:37.304901066Z     ConfigLocalStateDir=/var/opt/omi
+2018-11-20T22:41:37.304904166Z     ConfigSysConfDir=/etc/opt/omi/conf
+2018-11-20T22:41:37.304906866Z     ConfigProviderDir=/etc/opt/omi/conf
+2018-11-20T22:41:37.304909766Z     ConfigLogFile=/var/opt/omi/log/omiserver.log
+2018-11-20T22:41:37.304912566Z     ConfigPIDFile=/var/opt/omi/run/omiserver.pid
+2018-11-20T22:41:37.304915366Z     ConfigRegisterDir=/etc/opt/omi/conf/omiregister
+2018-11-20T22:41:37.304918166Z     ConfigSchemaDir=/opt/omi/share/omischema
+2018-11-20T22:41:37.304921066Z     ConfigNameSpaces={root-oms, root-cimv2, root-omi, root-scx}
+2018-11-20T22:41:37.304925866Z }
+2018-11-20T22:41:37.326992767Z  * Starting periodic command scheduler cron
+2018-11-20T22:41:37.329012858Z    ...done.
+2018-11-20T22:41:37.348521170Z Primary Workspace: f808f30a-8bcd-4ab0-87c4-221b7a98f05e    Status: Onboarded(OMSAgent Running)
+2018-11-20T22:41:37.363004505Z omi 1.4.2.5
+2018-11-20T22:41:37.375957347Z omsagent 1.6.0.163
+2018-11-20T22:41:37.384828807Z docker-cimprov 1.0.0.35

@@ -1,6 +1,6 @@
-FROM ruby:2.5.1-stretch
+FROM ruby:2.5.1-stretch as base
 
-RUN sudo apt-get update && apt-get install -y \
+RUN apt-get update && apt-get install -y \
         git \
         build-essential \
         g++ \
@@ -16,6 +16,9 @@ WORKDIR /var/app
 COPY Gemfile Gemfile.lock ./
 
 RUN bundle install
+
+
+FROM base as release
 
 COPY . ./
 
